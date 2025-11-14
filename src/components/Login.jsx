@@ -13,7 +13,7 @@ const Login = () => {
     // Store user role in browser's local storage
     localStorage.setItem("userRole", role);
     //Redirect to dashboard
-    navigate("/dashbord");
+    navigate("/dashboard");
   };
   return (
     <div className="min-h-screen flex items-center justify-center">
@@ -24,7 +24,7 @@ const Login = () => {
 
         {/**Role selection dropdown */}
         <div className="mb-4">
-          <label className="block text-gray-700 mb-2">Select Role:</label>
+          <label className="block text-blue-700 mb-2">Select Role:</label>
           <select
             value={role}
             onChange={(e) => setRole(e.target.value)} // Update state when selection changes

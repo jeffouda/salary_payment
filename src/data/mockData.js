@@ -22,7 +22,7 @@ export const sampleEmployees = [
   },
 ];
 
-export const sampleRequest = [
+export const sampleRequests = [
   {
     id: 1,
     employeeId: 1,
